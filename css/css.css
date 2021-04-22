@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado{
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+    color: #707070;
+    font-size: 30px;
+    margin: 10px 20px 10px 20px;
+}
+.TITTLE{
+    text-align: center;
+    margin-top: 30px;
+    color: #D94848;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.caja_contenedora{
+    font-family: 'Raleway', sans-serif;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 30px;
+    
+}
+.fila_1{
+    display: flex;
+    
+}
+.fila_2{
+    display: flex;
+    
+}
+.caja_contenedora .fila_1 div, .caja_contenedora .fila_2 div{
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    background-color: #310F40	;
+    
+}
+.caja_2{
+    font-family: 'Raleway', sans-serif;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 30px;  
+    display: flex; 
+}
+.caja_2 .columna_1{
+    text-align: center;
+    width: 50%;
+}
+.caja_2 .columna_2{
+    text-align: center;
+    width: 50%;
+    
+}
+.caja_2 .columna_1 div{
+    padding-top: 15px;
+    box-sizing: border-box;
+    margin-top: 20%;
+    width: 450px;
+    height: 70px;
+    background-color: #9AD2D9;
+    
+    margin: 10px auto 10px auto;
+    color: white;
+    font-size: 30px;
+}
+.caja_2 .columna_2 div{
+    padding-top: 15px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    width: 450px;
+    height: 70px;
+    background-color: #D9644A;
+    margin: auto;
+    margin: 10px auto 10px auto;
+    color: white;
+    font-size: 30px;
+}
